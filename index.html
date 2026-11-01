@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dailies — Support</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1c1c1e;
+  --muted: #6e6e73;
+  --rule: #e5e5ea;
+  --accent: #2f6fe4;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --text: #f2f2f7;
+    --muted: #98989f;
+    --rule: #2c2c2e;
+    --accent: #6ea0ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+header img { width: 64px; height: 64px; border-radius: 14px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, ul { margin: 0 0 14px; }
+ul { padding-left: 22px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+nav { margin: 4px 0 32px; }
+nav a { margin-right: 16px; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 48px 0; }
+</style>
+<link rel="icon" href="icon.png">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Dailies</h1>
+  </header>
+  <p class="muted">A new logic puzzle every day for iPhone.</p>
+  <nav><a href="#ru">По-русски</a><a href="privacy.html">Privacy Policy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a></nav>
+
+  <h2>Contact</h2>
+  <p>Questions, bugs or ideas: <a href="mailto:denisryabykh@gmail.com">denisryabykh@gmail.com</a>. Please mention your iPhone model and iOS version if something isn't working.</p>
+
+  <h2>Dailies Plus</h2>
+  <ul>
+    <li><b>Restore a subscription</b> on a new iPhone or after reinstalling: Settings in the app › Restore purchases.</li>
+    <li><b>Cancel or change your plan:</b> Settings in the app › Manage subscription, or the iPhone Settings app › your name › Subscriptions. Cancel at least 24 hours before the period ends to avoid the next charge.</li>
+    <li><b>Refunds</b> are handled by Apple: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+  </ul>
+
+  <h2>Your progress</h2>
+  <p>Streaks, times and saved games are kept on your iPhone only. Deleting the app deletes them, and they don't move to a new iPhone except through an iPhone backup.</p>
+
+  <hr>
+
+  <section id="ru" lang="ru">
+    <h1>Dailies</h1>
+    <p class="muted">Новая логическая задача каждый день на iPhone.</p>
+    <nav><a href="privacy.html#ru">Политика конфиденциальности</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Условия использования</a></nav>
+
+    <h2>Связь</h2>
+    <p>Вопросы, ошибки, идеи: <a href="mailto:denisryabykh@gmail.com">denisryabykh@gmail.com</a>. Если что-то не работает, укажите модель iPhone и версию iOS.</p>
+
+    <h2>Dailies Plus</h2>
+    <ul>
+      <li><b>Восстановить подписку</b> на новом iPhone или после переустановки: настройки в приложении › Восстановить покупки.</li>
+      <li><b>Отменить подписку или сменить план:</b> настройки в приложении › Управление подпиской или приложение «Настройки» на iPhone › ваше имя › Подписки. Отмените не позже чем за 24 часа до конца периода, чтобы не было следующего списания.</li>
+      <li><b>Возврат денег</b> оформляется через Apple: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</li>
+    </ul>
+
+    <h2>Ваш прогресс</h2>
+    <p>Серии, время и сохранённые партии хранятся только на вашем iPhone. Если удалить приложение, они удалятся. На новый iPhone они переедут только вместе с резервной копией iPhone.</p>
+  </section>
+</main>
+</body>
+</html>
